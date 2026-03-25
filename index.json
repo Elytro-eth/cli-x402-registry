@@ -9,14 +9,6 @@
       "tags": ["email", "inboxes", "domains", "drafts", "threads", "webhooks", "messaging"]
     },
     {
-      "id": "browserbase",
-      "name": "Browserbase",
-      "description": "Headless browser sessions, web search, and page fetching for AI agents.",
-      "categories": ["web", "compute", "search"],
-      "serviceUrl": "https://x402.browserbase.com",
-      "tags": ["browser", "scraping", "automation", "headless", "search", "fetch"]
-    },
-    {
       "id": "agoragentic",
       "name": "Agoragentic",
       "description": "AI agent service marketplace with pay-per-use invocations via HTTP 402. Browse catalog and invoke services without registration.",
@@ -25,20 +17,12 @@
       "tags": ["ai-agents", "marketplace", "devtools", "creative", "memory"]
     },
     {
-      "id": "imference",
-      "name": "Imference",
-      "description": "High-performance image generation API powered by state-of-the-art AI models.",
-      "categories": ["ai", "image", "generation"],
-      "serviceUrl": "https://imference.com",
-      "tags": ["image-generation", "ai", "text-to-image", "stable-diffusion"]
-    },
-    {
-      "id": "kurier",
-      "name": "Kurier",
-      "description": "Submit zero-knowledge proofs for on-chain verification via zkVerify. Supports multiple proof types including groth16, plonky2, risc0, fflonk, ultraplonk, sp1, ultrahonk, and ezkl.",
-      "categories": ["blockchain", "zk-proof", "verification"],
-      "serviceUrl": "https://api.kurier.xyz",
-      "tags": ["zero-knowledge", "zk-proof", "blockchain", "verification", "zkverify"]
+      "id": "coingecko",
+      "name": "CoinGecko",
+      "description": "x402-enabled, instant, pay-per-use crypto price and market data endpoints. Access with native crypto payment, no key or account required.",
+      "categories": ["blockchain", "data", "pricing"],
+      "serviceUrl": "https://pro-api.coingecko.com",
+      "tags": ["crypto", "price", "market-data", "defi", "tokens", "pools"]
     },
     {
       "id": "run402",
