@@ -6,24 +6,31 @@
       "description": "Email inboxes for AI agents.",
       "categories": ["ai", "social"],
       "serviceUrl": "https://x402.api.agentmail.to",
-      "tags": ["email", "inboxes", "domains", "drafts", "threads", "webhooks", "messaging"],
-      "docs": {
-        "homepage": "https://docs.agentmail.to"
-      },
-      "endpoints": []
+      "tags": ["email", "inboxes", "domains", "drafts", "threads", "webhooks", "messaging"]
     },
     {
-      "id": "browserbase",
-      "name": "Browserbase",
-      "description": "Headless browser sessions, web search, and page fetching for AI agents.",
-      "categories": ["web", "compute", "search"],
-      "serviceUrl": "https://x402.browserbase.com",
-      "tags": ["browser", "scraping", "automation", "headless", "search", "fetch"],
-      "docs": {
-        "homepage": "https://docs.browserbase.com",
-        "llmsTxt": "https://docs.browserbase.com/llms.txt"
-      },
-      "endpoints": []
+      "id": "agoragentic",
+      "name": "Agoragentic",
+      "description": "AI agent service marketplace with pay-per-use invocations via HTTP 402. Browse catalog and invoke services without registration.",
+      "categories": ["ai", "marketplace", "services"],
+      "serviceUrl": "https://agoragentic.com",
+      "tags": ["ai-agents", "marketplace", "devtools", "creative", "memory"]
+    },
+    {
+      "id": "coingecko",
+      "name": "CoinGecko",
+      "description": "x402-enabled, instant, pay-per-use crypto price and market data endpoints. Access with native crypto payment, no key or account required.",
+      "categories": ["blockchain", "data", "pricing"],
+      "serviceUrl": "https://pro-api.coingecko.com",
+      "tags": ["crypto", "price", "market-data", "defi", "tokens", "pools"]
+    },
+    {
+      "id": "run402",
+      "name": "Run402",
+      "description": "Full-stack infrastructure for AI agents: Postgres database + REST API + user auth + file storage + RLS + static site hosting + image generation. Prototype tier is FREE.",
+      "categories": ["infrastructure", "database", "hosting", "ai"],
+      "serviceUrl": "https://api.run402.com",
+      "tags": ["postgres", "database", "api", "auth", "storage", "hosting", "static-site", "image-generation"]
     }
   ]
 }
