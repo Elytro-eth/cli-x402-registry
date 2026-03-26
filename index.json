@@ -33,12 +33,20 @@
       "tags": ["postgres", "database", "api", "auth", "storage", "hosting", "static-site", "image-generation"]
     },
     {
+      "id": "twitsh",
+      "name": "twit.sh",
+      "description": "Real-time X data ingestion and posting for AI agents with per-request USDC payments on Base via x402.",
+      "categories": ["social", "ai", "data"],
+      "serviceUrl": "https://x402.twit.sh",
+      "tags": ["twitter", "x", "agents", "social", "usdc", "base", "real-time"]
+    },
+    {
       "id": "pinata",
       "name": "Pinata",
       "description": "Account-free IPFS uploads and retrievals using crypto payments, powered by x402. Pay for private or public IPFS storage and retrieval without an account or API key.",
       "categories": ["storage", "ipfs", "web3"],
       "serviceUrl": "https://402.pinata.cloud",
       "tags": ["ipfs", "storage", "decentralized", "file-upload", "retrieval"]
-    }
+     }
   ]
 }

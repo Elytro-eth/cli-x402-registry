@@ -199,8 +199,12 @@ async function main() {
     const entries: Array<{ isFile: () => boolean; name: string }> = await fs.readdir(repoRoot, {
         withFileTypes: true,
     });
+    const ignoredJsonFiles = new Set(['package-lock.json']);
     const jsonFiles = entries
-        .filter((entry: { isFile: () => boolean; name: string }) => entry.isFile() && entry.name.endsWith('.json'))
+        .filter(
+            (entry: { isFile: () => boolean; name: string }) =>
+                entry.isFile() && entry.name.endsWith('.json') && !ignoredJsonFiles.has(entry.name)
+        )
         .map((entry: { isFile: () => boolean; name: string }) => entry.name)
         .sort();
 
